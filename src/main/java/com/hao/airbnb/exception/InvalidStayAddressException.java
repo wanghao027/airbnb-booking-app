@@ -1,0 +1,7 @@
+package com.hao.airbnb.exception;
+
+public class InvalidStayAddressException extends RuntimeException {
+    public InvalidStayAddressException(String message) {
+        super(message);
+    }
+}
